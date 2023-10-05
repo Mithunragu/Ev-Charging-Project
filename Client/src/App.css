@@ -1,0 +1,225 @@
+/* *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} */
+.Home{
+    background-image: url("https://img.freepik.com/premium-photo/artwork-glass-car-with-green-plants-water-inside-green-energy-concept-generative-ai_136403-21776.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 93vh;
+    width: 100%;
+    object-fit: cover;
+    background-size: cover;
+}
+
+li:hover {
+    border-bottom: 2px solid rgb(0, 0, 0);
+  }
+.topic{
+    text-align: center;
+    position: relative;
+    font-size: 2.5rem;
+    text-shadow: 1px 1px 10px black;
+    text-transform: uppercase;
+}
+/* REGISTER */
+
+
+.box{
+    
+    background-color: rgb(4,75,97);
+    width: 100%;
+    height: 100vh;
+}
+
+.reg-bg{
+    background-image: url("https://i.pinimg.com/originals/88/d7/90/88d7900a323a45215372970ab023b13d.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-attachment: fixed;
+      height: 100vh;
+      width: 100%;
+      object-fit: cover;
+      background-size: cover;
+  }
+
+  .regMainCard{
+    margin-top: 10px !important;
+  }
+.regCard{
+    background-color: rgba(255, 255, 255, 0.082);
+    border-radius: 10px;
+    width: 400px !important;
+    margin: 20px 20px !important;
+    padding: 15px 20px !important;
+    border: 1px solid white;
+    backdrop-filter: blur(4px);
+    box-shadow: 0 0 70px rgba(0, 0, 0);
+}
+
+/* @media screen (max-width:320px) {
+    .regCard{
+        width:300px !important;
+    }
+} */
+.regCard input{
+    width: 100%;
+    outline: none;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    backdrop-filter: blur(10px);
+    font-size: 16px;
+}
+
+.regCard label{
+    color: white;
+    font-size: 16px;
+}
+
+.regCard select{
+    outline: none;
+    padding: 5px;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    backdrop-filter: blur(10px);
+    width: 100%;
+    
+}
+
+.opt1{
+    padding: 25px;
+    background-color: transparent !important;
+    color: black;
+}
+
+.opt2{
+    color: black;
+
+}
+.regCard input:hover{
+    border: 1px solid rgba(255, 255, 255);
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.525);
+}
+
+.regCard input::placeholder{
+    color: rgb(194, 194, 194);
+    padding: 0 10px;
+}
+
+.regCard h2{
+    color: white;
+}
+.regCard p{
+    color: white;
+}
+.regCard button:hover{
+    border: 1px solid rgba(255, 255, 255);
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.525);
+    color: rgb(45, 14, 222);
+}
+.login-bg{
+    background-image: url("https://www.power-technology.com/wp-content/uploads/sites/21/2021/09/shutterstock_1864450102-scaled.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-attachment: fixed;
+      height: 100vh;
+      width: 100%;
+      object-fit: cover;
+      background-size: cover; 
+}
+.station-bg{
+    background-image: url("https://wallpapercave.com/wp/wp8000721.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    background-size: cover; 
+}
+.owner-home-page{
+    background-image: url("https://s19536.pcdn.co/wp-content/uploads/2021/07/electriccar-1400.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    background-size: cover; 
+
+   
+}
+
+/* .owner-home-page :hover{
+    transform: translateY(-25px);
+    transition-duration: 1s;
+} */
+.uploaddetails{
+    background-color: rgb(237, 111, 111);
+}
+.ownerbutton:hover{
+    border: 1px solid rgb(16, 12, 12);
+    box-shadow: 0 0 30px rgba(245, 5, 5, 0.525);
+}
+.ownerbuttongreen:hover{
+    border: 1px solid rgb(16, 12, 12);
+    box-shadow: 0 0 30px rgba(2, 103, 26, 0.525);
+}
+.ownerbuttongrey:hover{
+    border: 1px solid rgb(16, 12, 12);
+    box-shadow: 0 0 30px rgba(57, 58, 57, 0.525);
+}
+/* End */
+/* Usersearchpage */
+.Single-owner{
+    background-color: rgb(31, 125, 94);
+    height: 100vh;
+    width: 100vw;
+}
+.card-usersearch{
+    width: 12em;
+}
+.usersearchpage{
+    background-image: url("https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2050&q=80");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    background-size: cover;  
+}
+.search-box{
+    height: 50px;
+    width: 50%;
+    display: flex;
+    cursor: pointer;
+    padding: 10px 20px;
+    background: white;
+    border-radius: 30px;
+    align-items: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0,0.3);  
+
+    
+}
+.search-box:hover input{
+    width: 100%;
+}
+.search-box input{
+    width: 0;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    transition: 0.8s;
+    background: transparent;
+}
+.search-box a .fas{
+    background: black;
+    font-size: 18px;
+}

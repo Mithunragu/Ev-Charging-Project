@@ -1,0 +1,37 @@
+l.bg-viewuser{
+    background-color: #131212;
+    width: 100vw;
+    height: 100vh;
+}
+
+table{
+    position: relative;
+    left: 10%;
+    border: 1px solid#bdc3c7;
+    box-shadow: 2px 2px 12px #131212,-1px -1px 8px rgb(12, 12, 12);
+    
+ }
+tr:hover{
+    background-color: #f5f5f5;
+    transform: scale(1.02);
+    box-shadow: 1px 1px 1px hwb(0 4% 95%),-1px -1px 8px rgb(14, 15, 15);
+    color: red;
+}
+#header{
+    background-color:  #16a085; 
+    color: white;
+}
+tr{
+    transition: all .2s ease-in;
+    cursor: pointer;
+}
+th,td{
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid  #ddd ;
+}
+@media only screen and(max-width:768px){
+    table{
+        width: 90%;
+    }
+} 
